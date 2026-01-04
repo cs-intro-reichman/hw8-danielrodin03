@@ -100,7 +100,7 @@
     public String toString() {
         String ans = name + " -> ";
         for (int i = 0; i < fCount; i++) {
-            ans = ans + " " + follows[i];
+            ans += " " + follows[i];
         }
         return ans;
     }
