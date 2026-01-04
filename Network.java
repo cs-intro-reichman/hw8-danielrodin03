@@ -112,8 +112,9 @@ public class Network {
     public String toString() {
        String ans = "Network:\n";
        for (int i = 0; i < userCount; i++) {
-           ans += users[i].toString() + "\n";
+           ans += "\n" +users[i].toString();
        }
+       if (userCount > 0) ans += "\n";
        return ans;
     }
 }
